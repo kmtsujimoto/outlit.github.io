@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>MenShirt2</title>
+		<link href: <link href="https://fonts.googleapis.com/css?family=Oswald" type="text/css" rel="stylesheet">
+		<style>
+			* {
+				margin: 0;
+			}
+
+			#navigation {
+				overflow: show;
+				text-align: center;
+				margin: 0;
+				background-color: White;
+				height: 10px;
+			}
+
+			#navigation a:hover {
+				background-color: rgba(2,200,200,0.5);
+			}
+
+			#navigation a {
+				float: left;
+				display: inline-block;
+				/*border: 1px solid Gray;*/
+				width: 15%;
+				margin: 0;
+				font-size: 20px;
+				font-family: Oswald;
+				/*font-weight: bold;*/
+				color: Black;
+				background-color: none;
+				margin-top:0px;
+				text-align: center;
+				padding-top: 10px;
+				padding-bottom: 10px;
+				text-decoration: none;
+			}
+
+			#backbutton {
+				background-color:white;
+				margin-top: 0px;
+				margin-left: 6%;
+				display: inline-block;
+				margin-bottom : 10px;
+				font-family: Oswald;
+				padding: 10px 20px;
+				border-width: 2px;
+				border-color: black;
+				border-style: solid;
+				color: black;
+			}
+
+			#backbutton:hover {
+				background-color: rgb(200,200,200);
+			}
+
+			.header {
+				display:inline-block;
+				margin-left:30%;
+				text-align: center;
+				font-family: Oswald;
+				font-size: 50px;
+				margin-top: 0px;
+				margin-bottom: 0px;
+			}
+
+			#top {
+				background-color:rgb(230,230,230);
+				margin-top: 40px;
+				margin-bottom: 10px;
+				display: block;
+			}
+
+			.productname {
+				text-align: center;
+				color: Black;
+				text-decoration: none;
+			}
+
+			.subtext {
+				color: Black;
+				text-align: left;
+				margin-left: 50px;
+			}
+
+			.item {
+				float: left;
+				text-align: center;
+				width: 50%;
+				margin-left: 2%;
+				margin-bottom: 50px;
+				display: inline-block;
+				font-family: Oswald;
+				text-decoration: none;
+				background-color: gray;
+			}
+
+			.description {
+				float: right;
+				text-align: center;
+				width: 40%;
+				margin: 0;
+				margin-right: 2%%;
+				margin-bottom: 50px;
+				display: inline-block;
+				font-family: Oswald;
+				text-decoration: none;
+				background-color: white;
+			}
+
+			.item:hover {
+				background-color: black;
+			}
+
+			.pic {
+				margin: 20px;
+				float: center;
+				width: 90%;
+			}
+
+			.dropdown {
+			}
+
+			.dropdown .dropbtn {
+				float: left;
+			    cursor: pointer;
+			    font-size: 20px;    
+			    border: none;
+			    outline: none;
+			    color: black;
+			    padding-top: 10px;
+				padding-bottom: 10px;
+				padding-left: 6%;
+				padding-right: 6%;
+			    background-color: white;
+			    font-family: Oswald;
+				display: inline-block;
+			}
+
+			.dropdown:hover .dropbtn, .dropbtn:focus {
+			    background-color: rgba(2,200,200,0.5);
+			}
+
+			.dropdown-content {
+			    display: none;
+			    position: absolute;
+			    background-color: #f9f9f9;
+			    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+			    z-index: 1;
+			    top: 50px;
+			    left: 15%;
+			}
+
+			#myDropdown {
+				width: 15%;
+			}
+
+			.dropdown-content a {
+				overflow: show;
+			    float: none;
+			    color: black;
+			    padding: 6% 42.5%;
+			    text-decoration: none;
+			    display: block;
+			}
+
+			.dropdown-content a:hover {
+			    background-color: #ddd;
+			}
+
+			.show {
+			    display: block;
+			}
+		</style>
+	</head>
+	<body>
+		<div id = "navigation">
+			<a href = business2.0.html>Home</a>
+			<div class="dropdown">
+			    <button class="dropbtn" onclick="myFunction()">Shop
+			    </button>
+			    <div class="dropdown-content" id="myDropdown">
+			      <a href="business2.0Men.html">Men</a>
+			      <a href="business2.0Women.html">Women</a>
+			      <a href="business2.0Boys.html">Boys</a>
+			      <a href="business2.0Girls.html">Girls</a>
+			    </div>
+		 	</div> 
+			<a href = business2.03.html>Events</a>
+			<a href = business2.04.html>Lookbook</a>
+			<a href = business2.05.html>Cart</a>
+		</div>
+		<div id = "top">
+			<a id = "backbutton" href = "business2.0Men.html" style="text-decoration:none">Back</a>
+			<h2 class = "header">Product Name</h2>
+		</div>
+		<div class = "item">
+			<a href = business2.03.html style="text-decoration:none">
+			<img class = "pic" src = "https://shirtsofcotton.com/en/media/catalog/product/cache/10/image/1200x1200/9df78eab33525d08d6e5fb8d27136e95/s/h/shirtsofcotton-t-shirt-soc-06-front-1200px_1.jpg" alt = "productpic1">
+			</a>
+		</div>
+		<div class = "description">
+			<p class = "subtext">price</p>
+			<p class = "subtext">description</p>
+			</a>
+		</div>
+		<script>
+			/* When the user clicks on the button, 
+			toggle between hiding and showing the dropdown content */
+			function myFunction() {
+			    document.getElementById("myDropdown").classList.toggle("show");
+			}
+
+			// Close the dropdown if the user clicks outside of it
+			window.onclick = function(e) {
+			  if (!e.target.matches('.dropbtn')) {
+			    var myDropdown = document.getElementById("myDropdown");
+			      if (myDropdown.classList.contains('show')) {
+			        myDropdown.classList.remove('show');
+			      }
+			  }
+			}
+		</script>
+	</body>
+</html>

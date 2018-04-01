@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Homes</title>
+		<link href: <link href="https://fonts.googleapis.com/css?family=Oswald" type="text/css" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Mina" rel="stylesheet">
+		<style>
+			* {
+				margin: 0;
+			}
+
+			body {
+				margin-top: 0;
+				background-color: White;
+			}
+
+			.sub {
+				text-align: center;
+				padding-top: 10px;
+				font-size: 30px;
+				margin: 10px 10px 5px 10px;
+				color: Navy;
+				font-family: Mina;
+				margin-top: 0;
+			}
+
+			#backcolor {
+				background-color: White;
+			}
+
+			#background {
+				background-image: url("http://eskipaper.com/images/cool-background-pictures-2.jpg");
+				background-position: center;
+				margin: 0;
+			}
+
+			#navigation {
+				overflow: show;
+				text-align: center;
+				margin: 0;
+				background-color: White;
+				height: 10px;
+			}
+
+			#navigation a:hover {
+				background-color: rgba(2,2,2,1);
+				color: white;
+			}
+
+			#navigation a {
+				float: left;
+				display: inline-block;
+				/*border: 1px solid Gray;*/
+				width: 15%;
+				margin: 0;
+				font-size: 20px;
+				font-family: Oswald;
+				/*font-weight: bold;*/
+				color: Black;
+				background-color: none;
+				margin-top:0px;
+				text-align: center;
+				padding-top: 10px;
+				padding-bottom: 10px;
+				text-decoration: none;
+			}
+
+			#title {
+				margin-left: 10%;
+				font-size: 200px;
+				color: White;
+				margin-top: 40px;
+				font-family: Mina;
+				padding-bottom: 0;
+			}
+
+			#subtitle {
+				padding-top: 0;
+				color: White;
+				font-size: 75px;
+				margin: 0;
+				margin-left: 35%;
+				padding-bottom: 50px;
+				font-family: Mina;
+			}
+
+			#intro {
+				color: Navy;
+				font-size: 20px;
+				font-family: Oswald;
+				margin-left: 50px;
+				margin-right: 50px;
+				margin-top: 10px;
+			}
+
+			#change:hover {
+				background-color: rgba(2,2,2,0.5);
+			}
+
+			.article {
+				width: 80%;
+				margin: 0;
+				margin-left: 10%;
+				display: block;
+				background-color: White;
+			}
+
+			.text {
+				margin-top: 20px;
+				margin-bottom: 50px;
+			}
+
+			.description {
+				font-size: 20px;
+				margin-left: 50px;
+				margin-right: 50px;
+				color: Navy;
+				font-family: Oswald;
+			}
+
+			.dropdown {
+			}
+
+			.dropdown .dropbtn {
+				float: left;
+			    cursor: pointer;
+			    font-size: 20px;    
+			    border: none;
+			    outline: none;
+			    color: black;
+			    padding-top: 10px;
+				padding-bottom: 10px;
+				padding-left: 6%;
+				padding-right: 6%;
+			    background-color: white;
+			    font-family: Oswald;
+				display: inline-block;
+			}
+
+			.dropdown:hover .dropbtn, .dropbtn:focus {
+			    background-color: rgba(2,2,2,1);
+			    color: white;
+			}
+
+			.dropdown-content {
+			    display: none;
+			    position: absolute;
+			    background-color: #f9f9f9;
+			    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+			    z-index: 1;
+			    top: 50px;
+			    left: 15%;
+			}
+
+			#myDropdown {
+				width: 15%;
+			}
+
+			.dropdown-content a {
+				overflow: show;
+				width: 15%;
+			    float: none;
+			    color: black;
+			    padding: 6% 42.5%;
+			    text-decoration: none;
+			    display: block;
+			}
+
+			.dropdown-content a:hover {
+			    background-color: #ddd;
+			}
+
+			.show {
+			    display: block;
+			}
+		</style>
+	</head>
+	<body>
+		<div id = "backcolor">
+			<div id = "navigation">
+				<a href = business2.0.html>Home</a>
+				<div class="dropdown">
+				    <button class="dropbtn" onclick="myFunction()">Shop
+				    </button>
+				    <div class="dropdown-content" id="myDropdown">
+				      <a href="business2.0Men.html">Men</a>
+				      <a href="business2.0Women.html">Women</a>
+				      <a href="business2.0Boys.html">Boys</a>
+				      <a href="business2.0Girls.html">Girls</a>
+				    </div>
+			 	</div> 
+				<a href = business2.03.html>Events</a>
+				<a href = business2.04.html>Lookbook</a>
+				<a href = business2.05.html>Cart</a>
+			</div>
+			<div id = "background">
+				<div id = "change">
+				 	<h1 id = "title">OUTLIT</h1>
+				 	<h2 id = "subtitle">A Clothing Company</h2>
+				 </div>
+			</div>
+		</div>
+		<div class = "text">
+			<div class = "article">
+				<h2 class = "sub">Mission Statement</h2>
+				<p class = "description">OUTLIT advocates for controversial topics through well thought out designs. By applying our background knowledge and experience in the field of art, we hope to design apparel that impacts our generation and the modern world. Our clothing pieces bring light to pressing issues which affect our society today while preserving the integrity of our clothing. By embracing street style clothing that embodies the casual and cool attitude of teenagers, we aim to cross new boundaries and erase the stereotypes that paint teenagers as uneducated and apathetic towards global issues.</p>
+			</div>
+			<div class = "article">
+				<h2 class = "sub">Description</h2>
+				<p class = "description">OUTLIT is a general partnership split between six founders. Each of our founders have a strong understanding of art as well as something unique to bring to the table. With this uniqueness, we are able to create, plan, and market our products efficiently and professionally.Our initial launch, ‘Lighting It Up’, offers a collection of five shirts and hoodies, each promoting OUTLIT and spreading brand awareness throughout our target markets. The title of our launch collection, Lighting It Up, allows us to appeal to millenials by encouraging them to challenge the status quo and make their mark on the world. In doing so, our brand is able to bring together politics and polish, giving our customers the option to spread awareness while making a fashion statement.</p>
+			</div>
+		</div>
+		<script>
+				/* When the user clicks on the button, 
+				toggle between hiding and showing the dropdown content */
+				function myFunction() {
+				    document.getElementById("myDropdown").classList.toggle("show");
+				}
+
+				// Close the dropdown if the user clicks outside of it
+				window.onclick = function(e) {
+				  if (!e.target.matches('.dropbtn')) {
+				    var myDropdown = document.getElementById("myDropdown");
+				      if (myDropdown.classList.contains('show')) {
+				        myDropdown.classList.remove('show');
+				      }
+				  }
+				}
+			</script>
+	</body>
+</html

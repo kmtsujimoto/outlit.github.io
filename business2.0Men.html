@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Men</title>
+		<link href: <link href="https://fonts.googleapis.com/css?family=Oswald" type="text/css" rel="stylesheet">
+		<style>
+			* {
+				margin: 0;
+			}
+
+			#navigation {
+				overflow: show;
+				text-align: center;
+				margin: 0;
+				background-color: White;
+				height: 10px;
+			}
+
+			#navigation a:hover {
+				background-color: rgba(2,200,200,0.5);
+			}
+
+			#navigation a {
+				float: left;
+				display: inline-block;
+				/*border: 1px solid Gray;*/
+				width: 15%;
+				margin: 0;
+				font-size: 20px;
+				font-family: Oswald;
+				/*font-weight: bold;*/
+				color: Black;
+				background-color: none;
+				margin-top:0px;
+				text-align: center;
+				padding-top: 10px;
+				padding-bottom: 10px;
+				text-decoration: none;
+			}
+
+			.header {
+				color: white;
+				background-color:rgba(2,50,100,1);
+				display:block;
+				float: center;
+				text-align: center;
+				font-family: Oswald;
+				font-size: 50px;
+				margin-top: 40px;
+				margin-bottom: 20px;
+				padding-bottom: 10px;
+			}
+
+			.productname {
+				text-align: center;
+				color: Black;
+				text-decoration: none;
+
+			}
+
+			.subtext {
+				color: Black;
+				text-decoration: none;
+			}
+
+			.item {
+				text-align: center;
+				width: 25%;
+				margin: 0;
+				margin-left: 6%;
+				margin-bottom: 50px;
+				display: inline-block;
+				font-family: Oswald;
+				text-decoration: none;
+				background-color: white;
+			}
+
+			.item:hover {
+				background-color: rgb(230,230,230);
+			}
+
+			.pic {
+				float: center;
+				width: 90%;
+			}
+
+			.dropdown {
+			}
+
+			.dropdown .dropbtn {
+				float: left;
+			    cursor: pointer;
+			    font-size: 20px;    
+			    border: none;
+			    outline: none;
+			    color: black;
+			    padding-top: 10px;
+				padding-bottom: 10px;
+				padding-left: 6%;
+				padding-right: 6%;
+			    background-color: white;
+			    font-family: Oswald;
+				display: inline-block;
+			}
+
+			.dropdown:hover .dropbtn, .dropbtn:focus {
+			    background-color: rgba(2,200,200,0.5);
+			}
+
+			.dropdown-content {
+			    display: none;
+			    position: absolute;
+			    background-color: #f9f9f9;
+			    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+			    z-index: 1;
+			    top: 50px;
+			    left: 15%;
+			}
+
+			#myDropdown {
+				width: 15%;
+			}
+
+			.dropdown-content a {
+				overflow: show;
+			    float: none;
+			    color: black;
+			    padding: 6% 42.5%;
+			    text-decoration: none;
+			    display: block;
+			}
+
+			.dropdown-content a:hover {
+			    background-color: #ddd;
+			}
+
+			.show {
+			    display: block;
+			}
+		</style>
+	</head>
+	<body>
+		<div id = "navigation">
+			<a href = business2.0.html>Home</a>
+			<div class="dropdown">
+			    <button class="dropbtn" onclick="myFunction()">Shop
+			    </button>
+			    <div class="dropdown-content" id="myDropdown">
+			      <a href="business2.0Men.html">Men</a>
+			      <a href="business2.0Women.html">Women</a>
+			      <a href="business2.0Boys.html">Boys</a>
+			      <a href="business2.0Girls.html">Girls</a>
+			    </div>
+		 	</div> 
+			<a href = business2.03.html>Events</a>
+			<a href = business2.04.html>Lookbook</a>
+			<a href = business2.05.html>Cart</a>
+		</div>
+		<h1 class = "header">Men</h1>
+		<div class = "products">
+			<div class = "item">
+				<a href = MenShirt1.html style="text-decoration:none">
+				<h2 class = "productname">White Shirt</h2>
+				<img class = "pic" src = "http://alexairbrush.net/wp-content/uploads/2015/12/tshirt-900x900-2.jpg" alt = "productpic1">
+				<p class = "subtext">$8</p>
+				<p class = "subtext">description</p>
+				</a>
+			</div>
+			<div class = "item">
+				<a href = MenShirt2.html style="text-decoration:none">
+				<h2 class = "productname">Product Name</h2>
+				<img class = "pic" src = "https://shirtsofcotton.com/en/media/catalog/product/cache/10/image/1200x1200/9df78eab33525d08d6e5fb8d27136e95/s/h/shirtsofcotton-t-shirt-soc-06-front-1200px_1.jpg" alt = "productpic1">
+				<p class = "subtext">price</p>
+				<p class = "subtext">description</p>
+				</a>
+			</div>
+			<div class = "item">
+				<a href = business2.03.html style="text-decoration:none">
+				<h2 class = "productname">Product Name</h2>
+				<img class = "pic" src = "http://www.arvlon.com/wp-content/uploads/2018/02/02.jpg" alt = "productpic1">
+				<p class = "subtext">price</p>
+				<p class = "subtext">description</p>
+				</a>
+			</div>
+			<div class = "item">
+				<a href = business2.03.html style="text-decoration:none">
+				<h2 class = "productname">Product Name</h2>
+				<img class = "pic" src = "http://alexairbrush.net/wp-content/uploads/2015/12/tshirt-900x900-2.jpg" alt = "productpic1">
+				<p class = "subtext">price</p>
+				<p class = "subtext">description</p>
+				</a>
+			</div>
+			<div class = "item">
+				<a href = business2.03.html style="text-decoration:none">
+				<h2 class = "productname">Product Name</h2>
+				<img class = "pic" src = "http://alexairbrush.net/wp-content/uploads/2015/12/tshirt-900x900-2.jpg" alt = "productpic1">
+				<p class = "subtext">price</p>
+				<p class = "subtext">description</p>
+				</a>
+			</div>
+			<div class = "item">
+				<a href = business2.03.html style="text-decoration:none">
+				<h2 class = "productname">Product Name</h2>
+				<img class = "pic" src = "http://alexairbrush.net/wp-content/uploads/2015/12/tshirt-900x900-2.jpg" alt = "productpic1">
+				<p class = "subtext">price</p>
+				<p class = "subtext">description</p>
+				</a>
+			</div>
+		</div>
+		<script>
+			/* When the user clicks on the button, 
+			toggle between hiding and showing the dropdown content */
+			function myFunction() {
+			    document.getElementById("myDropdown").classList.toggle("show");
+			}
+
+			// Close the dropdown if the user clicks outside of it
+			window.onclick = function(e) {
+			  if (!e.target.matches('.dropbtn')) {
+			    var myDropdown = document.getElementById("myDropdown");
+			      if (myDropdown.classList.contains('show')) {
+			        myDropdown.classList.remove('show');
+			      }
+			  }
+			}
+		</script>
+	</body>
+</html>
